@@ -2,11 +2,6 @@
     "name": "root",
     "private": true,
     "version": "1.0.0",
-    "main": "dist/mapgrid-node-template.js",
-    "module": "dist/mapgrid-node-template.es.js",
-    "repository": "git@github.com:mapgrid/mapgrid-node-template.git",
-    "author": "mapgrid <noreply@mapgrid.org>",
-    "license": "MIT",
     "devDependencies": {
         "@rollup/plugin-commonjs": "^11.0.1",
         "@rollup/plugin-node-resolve": "^7.0.0",
