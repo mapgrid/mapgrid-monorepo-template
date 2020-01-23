@@ -1,1 +1,1 @@
-# mapgrid-node-template
+# mapgrid-monorepo-template
