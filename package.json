@@ -9,6 +9,7 @@
         "eslint-config-airbnb-base": "^14.0.0",
         "eslint-config-prettier": "^6.9.0",
         "eslint-plugin-import": "^2.18.2",
+        "jest": "^25.1.0",
         "lerna": "^3.20.2",
         "prettier": "^1.19.1",
         "rollup": "^1.29.0",
@@ -16,11 +17,12 @@
     },
     "scripts": {
         "build": "rollup -c",
-        "format": "prettier --write \"**/*.js\" \"**/*.json\" .eslintrc",
+        "format": "prettier --write \"**/*.js\" \"**/*.json\"",
         "lint": "eslint .",
         "prepublishOnly": "yarn run lint",
         "preversion": "yarn run lint",
-        "postversion": "git push && git push --tags"
+        "postversion": "git push && git push --tags",
+        "test": "jest && yarn run lint"
     },
     "workspaces": [
         "packages/*"
